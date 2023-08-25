@@ -1,47 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T08:25:15 IST" name="Default suite" finished-at="2023-08-24T08:25:19 IST" duration-ms="4699">
+  <suite started-at="2023-08-25T07:42:44 IST" name="Default suite" finished-at="2023-08-25T07:42:49 IST" duration-ms="4607">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.LoginWithDataRunner@66f57048]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-08-24T08:25:15 IST" name="Default test" finished-at="2023-08-24T08:25:19 IST" duration-ms="4699">
-      <class name="runners.LoginWithDataRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.LoginWithDataRunner@66f57048]" started-at="2023-08-24T08:25:15 IST" name="setUpClass" finished-at="2023-08-24T08:25:16 IST" duration-ms="1489" status="PASS">
+    <test started-at="2023-08-25T07:42:44 IST" name="Default test" finished-at="2023-08-25T07:42:49 IST" duration-ms="4607">
+      <class name="runners.ScenarioOutlineRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" started-at="2023-08-25T07:42:44 IST" name="setUpClass" finished-at="2023-08-25T07:42:46 IST" duration-ms="1329" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2e380628]]>
+                <![CDATA[org.testng.TestRunner@6a9d5dff]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.LoginWithDataRunner@66f57048]" started-at="2023-08-24T08:25:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-24T08:25:17 IST" duration-ms="345" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" started-at="2023-08-25T07:42:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-25T07:42:46 IST" duration-ms="245" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["login to the application with data"]]>
+                <![CDATA["Signup to application with multiple test data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login functionality with data"]]>
+                <![CDATA["Signup functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.LoginWithDataRunner@66f57048]" started-at="2023-08-24T08:25:17 IST" name="tearDownClass" finished-at="2023-08-24T08:25:19 IST" duration-ms="2702" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" started-at="2023-08-25T07:42:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-25T07:42:46 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signup to application with multiple test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" started-at="2023-08-25T07:42:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-25T07:42:46 IST" duration-ms="83" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signup to application with multiple test data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.ScenarioOutlineRunner@66f57048]" started-at="2023-08-25T07:42:46 IST" name="tearDownClass" finished-at="2023-08-25T07:42:49 IST" duration-ms="2726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.LoginWithDataRunner -->
+      </class> <!-- runners.ScenarioOutlineRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
