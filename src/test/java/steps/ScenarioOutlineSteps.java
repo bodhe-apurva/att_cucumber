@@ -5,6 +5,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class ScenarioOutlineSteps {
+	@Given("Test text is {string} from background")
+	public void test_text_is_from_background(String string) {
+	    System.out.println("data used is :"+string);
+	}
+
+	
 	
 	@Given("User is at signup page")
 	public void user_is_at_signup_page() {
