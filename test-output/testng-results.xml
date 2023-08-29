@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-28T08:19:45 IST" name="Default suite" finished-at="2023-08-28T08:19:49 IST" duration-ms="4209">
+  <suite started-at="2023-08-29T08:33:34 IST" name="Default suite" finished-at="2023-08-29T08:33:50 IST" duration-ms="16066">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegistrationRunner@66f57048]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CampaignsRunner@66f57048]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-08-28T08:19:45 IST" name="Default test" finished-at="2023-08-28T08:19:49 IST" duration-ms="4209">
-      <class name="runners.RegistrationRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.RegistrationRunner@66f57048]" started-at="2023-08-28T08:19:45 IST" name="setUpClass" finished-at="2023-08-28T08:19:46 IST" duration-ms="1281" status="PASS">
+    <test started-at="2023-08-29T08:33:34 IST" name="Default test" finished-at="2023-08-29T08:33:50 IST" duration-ms="16066">
+      <class name="runners.CampaignsRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.CampaignsRunner@66f57048]" started-at="2023-08-29T08:33:34 IST" name="setUpClass" finished-at="2023-08-29T08:33:36 IST" duration-ms="1241" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5b2f8ab6]]>
+                <![CDATA[org.testng.TestRunner@257cc1fc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.RegistrationRunner@66f57048]" started-at="2023-08-28T08:19:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-28T08:19:47 IST" duration-ms="353" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.CampaignsRunner@66f57048]" started-at="2023-08-29T08:33:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-29T08:33:36 IST" duration-ms="305" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Registration with nominee"]]>
+                <![CDATA["Create campaign"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Opening bank account"]]>
+                <![CDATA["Sending email campaign"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RegistrationRunner@66f57048]" started-at="2023-08-28T08:19:47 IST" name="tearDownClass" finished-at="2023-08-28T08:19:49 IST" duration-ms="2430" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.CampaignsRunner@66f57048]" started-at="2023-08-29T08:33:36 IST" name="tearDownClass" finished-at="2023-08-29T08:33:50 IST" duration-ms="14398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.RegistrationRunner -->
+      </class> <!-- runners.CampaignsRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
