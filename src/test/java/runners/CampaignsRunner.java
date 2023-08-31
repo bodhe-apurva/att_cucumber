@@ -5,15 +5,18 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
+//		1. End to end scenarios
+//		2. Critical functionalities
+//		3. Client requirement
+//		4. Repeatativeness 
+		
 		features = {"src\\test\\resources\\appfeatures\\Campaigns.feature"},
 		
-		glue = {"steps"},
+		glue = {"steps", "hooks"},
 		
 		plugin = {"pretty"},
 		
-		publish = true,
-		
-		tags = "@sanity"
+		tags = "@campaigns"
 		
 		
 		)

@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		plugin = {"pretty"},
 		
-		publish = true
+		dryRun = true
 		
 		
 		)

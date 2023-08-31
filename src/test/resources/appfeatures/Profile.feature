@@ -14,4 +14,4 @@ Then profile should get updated
 Scenario: delete Profile
 Given user is at home page
 When user clicks on delete profile button
-Then profile should get deleted
+Then profile should get

@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"steps"}, // package name where we have the glue code available
 		
 		publish = true// to generate the report post to the execution 
+		
 		)
 
 public class LoginRunner extends AbstractTestNGCucumberTests {

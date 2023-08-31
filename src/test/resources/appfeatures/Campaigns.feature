@@ -1,4 +1,7 @@
+@campaigns
 Feature: Sending email campaign
+
+
 @sanity
 Scenario: Create campaign
 Given user is at the campaigns page
@@ -7,7 +10,7 @@ And user enters information
 And user clicks on save button
 Then Campaign should get created
 
-@functional
+@functional @sanity
 Scenario: Schedule campaign
 Given user is at the campaigns page
 When user click on edit campaign 
